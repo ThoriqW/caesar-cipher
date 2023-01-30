@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.background {
+  height: 100vh;
+  background-color: hsla(0, 0%, 0%, 1);
+  background-image: radial-gradient(
+      at 49% 100%,
+      hsla(203, 77%, 74%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 100% 100%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
+}
+
+.navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.title h1 {
+  margin: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+.link a {
+  margin: 20px;
+  cursor: pointer;
+}
+.link a:visited {
+  color: #fff;
+}
+.link a:hover {
+  color: hsla(343, 100%, 76%, 1);
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-form {
+  margin-bottom: 10px;
+}
+
+.form {
+  width: 500px;
+  padding: 50px;
+  color: #fff;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  border: 3px solid #f1f1f1;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: hsla(343, 100%, 76%, 1);
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: hsla(203, 77%, 74%, 1);
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
